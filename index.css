@@ -232,6 +232,7 @@ a:hover {
     justify-content: right !important;
   }
   body {
+    height: 600px;
     width: 480px;
     background-color: red !important;
   }
