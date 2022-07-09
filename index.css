@@ -1,0 +1,241 @@
+/* General Page */
+body {
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+  min-width: 430px;
+  background-color: #202124;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.page {
+  margin: 8px;
+}
+
+a {
+  color: white;
+  line-height: 24px;
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.always_row {
+  flex-direction: row !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.space_between {
+  justify-content: space-between !important;
+}
+
+/* ---------------------- Header ---------------------- */
+.header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 48px;
+}
+.header .logo {
+  width: 74px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.flex-center, .form_buttons, .input, .content, .menu div div, .menu div, .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu div div {
+  padding-left: 15px;
+}
+.menu svg {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+  margin-left: 15px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.menu img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* ---------------------- Content of the page ---------------------- */
+.content {
+  margin-top: 200px;
+  flex-direction: column;
+}
+.content img {
+  height: 92px;
+}
+.content form {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text_input {
+  flex-grow: 1;
+  background-color: #202124;
+  color: #e8eaed;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+  height: 44px;
+  max-width: 544px;
+  min-width: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-image: url("searchicon.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  outline: none;
+  padding-left: 40px;
+}
+
+.text_input:hover {
+  background-color: #303134;
+  border: 1px solid #303134;
+}
+
+.text_input:focus {
+  background-color: #303134;
+  border: 1px solid #303134;
+}
+
+.form_buttons {
+  margin-top: 20px;
+}
+.form_buttons input {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+.form_buttons input:hover {
+  border: 1px solid #5f6368;
+}
+
+/* ---------------------- Footer Start ---------------------- */
+.footer {
+  height: 60px;
+  background-color: #171717;
+}
+
+.country {
+  margin-top: 17px;
+  padding-left: 30px;
+  color: #9aa0a6;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+/* ---------------------- Images Page ---------------------- */
+.g_image_text {
+  color: #4487f6;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  padding-left: 210px;
+  margin-top: -20px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+/* ---------------------- Advanced Page ---------------------- */
+.advanced_form {
+  max-width: 800px;
+}
+
+.title {
+  font-size: 22px;
+  color: #f28b82 !important;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5f6368;
+}
+
+.sub_title {
+  color: #fff !important;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.advanced_row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #e8eaed;
+}
+
+.advanced_text {
+  flex-grow: 0;
+  color: #bdc1c6;
+  min-width: 161px;
+}
+
+.advanced_input {
+  flex-grow: 1;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  height: 34px;
+  max-width: 544px;
+  min-width: 200px;
+  margin-left: 10px;
+  margin-right: 35px;
+  outline: none;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.advanced_input:focus {
+  border: 1px solid #8ab4f8;
+}
+
+.advanced_submit {
+  font-size: 12px !important;
+  font-weight: 600;
+  background-color: #8ab4f8 !important;
+  color: #202124 !important;
+  margin-bottom: 50px !important;
+}
+
+/* ---------------------- Mobile Change ---------------------- */
+@media screen and (max-width: 480px) {
+  .advanced_row {
+    flex-direction: column;
+  }
+  .advanced_row .advanced_textfield {
+    margin-bottom: 10px;
+  }
+  .content {
+    margin-top: 100px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
