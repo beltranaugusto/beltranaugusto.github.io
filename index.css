@@ -227,15 +227,6 @@ a:hover {
 
 /* ---------------------- Mobile Change ---------------------- */
 @media (max-width: 480px) {
-  .header {
-    display: flex;
-    justify-content: right !important;
-  }
-  body {
-    height: 600px;
-    width: 480px;
-    background-color: red !important;
-  }
   .advanced_row {
     flex-direction: column;
   }
