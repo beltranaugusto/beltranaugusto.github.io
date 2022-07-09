@@ -228,6 +228,7 @@ a:hover {
 /* ---------------------- Mobile Change ---------------------- */
 @media screen and (max-width: 480px) {
   body {
+    width: 480px;
     background-color: red !important;
   }
   .advanced_row {
