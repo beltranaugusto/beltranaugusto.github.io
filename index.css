@@ -229,7 +229,7 @@ a:hover {
 @media (max-width: 480px) {
   .header {
     display: flex;
-    justify-content: right;
+    justify-content: right !important;
   }
   body {
     width: 480px;
