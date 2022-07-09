@@ -227,6 +227,10 @@ a:hover {
 
 /* ---------------------- Mobile Change ---------------------- */
 @media (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: right;
+  }
   body {
     width: 480px;
     background-color: red !important;
