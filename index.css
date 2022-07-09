@@ -30,7 +30,7 @@ a:hover {
 }
 
 .hidden {
-  display: none;
+  visibility: none;
 }
 
 .space_between {
