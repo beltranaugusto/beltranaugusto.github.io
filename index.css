@@ -227,6 +227,9 @@ a:hover {
 
 /* ---------------------- Mobile Change ---------------------- */
 @media screen and (max-width: 480px) {
+  body {
+    background-color: red !important;
+  }
   .advanced_row {
     flex-direction: column;
   }
